@@ -1,0 +1,8 @@
+theme = "onedark"
+
+[editor]
+true-color = true
+color-modes = true
+line-number = "relative"
+idle-timeout = 0
+

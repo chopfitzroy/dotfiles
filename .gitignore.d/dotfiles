@@ -1,0 +1,21 @@
+# Ignore everything in `~/`
+*
+
+# Track the file we are currently editing
+!/.gitignore.d
+!/.gitignore.d/dotfiles
+
+# ZSH config
+!/.zshrc
+
+# Get into config dir
+!/.config
+
+
+# Helix modal editor
+!/.config/helix
+!/.config/helix/*
+
+# Starship ZSH prompt
+!/.config/starship.toml
+
