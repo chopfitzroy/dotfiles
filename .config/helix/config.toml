@@ -6,3 +6,9 @@ color-modes = true
 line-number = "relative"
 idle-timeout = 0
 
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+"space" = { "[" = ["add_newline_above", "move_line_up", "paste_before"], "]" = ["add_newline_below", "move_line_down", "paste_before"] }
+
