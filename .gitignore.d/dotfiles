@@ -11,11 +11,15 @@
 # Get into config dir
 !/.config
 
+# Starship ZSH prompt
+!/.config/starship.toml
+
+# Kitty terminal
+!/.config/kitty
+# Explicitly target config file and ignore themes
+!/.config/kitty/kitty.config
 
 # Helix modal editor
 !/.config/helix
 !/.config/helix/*
-
-# Starship ZSH prompt
-!/.config/starship.toml
 
